@@ -1,37 +1,83 @@
-import Link from "next/link";
+'use client';
+
+import React, { useState, useMemo } from 'react';
+import { Header } from '../components/ui/header';
+import { CategoryNav } from '../components/ui/category-nav';
+import { CompanyGrid } from '../components/ui/company-grid';
+import { FeelingLuckyButton } from '../components/ui/feeling-lucky-button';
+import { getCompanies } from '../lib/data/load-companies';
+import { searchCompanies, getRandomCompany, normalizeCategory } from '../lib/utils/search-utils';
+import { categories } from '../../lib/categorization/categories';
+import type { Company } from '../../types/company';
 
 export default function HomePage() {
+  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [singleCompanyId, setSingleCompanyId] = useState<string | null>(null);
+
+  // Load companies data
+  const companies = useMemo(() => getCompanies(), []);
+
+  // Filter companies based on selected category and search query
+  const filteredCompanies = useMemo(() => {
+    if (singleCompanyId) {
+      return companies.filter((company: Company) => 
+        `${company.name}-${company.displayName}` === singleCompanyId
+      );
+    }
+
+    return searchCompanies(companies, {
+      query: searchQuery,
+      category: selectedCategory === 'all' ? 'all' : normalizeCategory(selectedCategory),
+    });
+  }, [companies, selectedCategory, searchQuery, singleCompanyId]);
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+    setSingleCompanyId(null);
+  };
+
+  const handleCategorySelect = (category: string) => {
+    setSelectedCategory(category);
+    setSingleCompanyId(null);
+  };
+
+  const handleRandomCompany = () => {
+    const randomCompany = getRandomCompany(companies);
+    if (randomCompany) {
+      setSingleCompanyId(`${randomCompany.name}-${randomCompany.displayName}`);
+    }
+  };
+
+  const handleReturnHome = () => {
+    setSingleCompanyId(null);
+    setSearchQuery('');
+    setSelectedCategory('all');
+  };
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-          Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
-        </h1>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/usage/first-steps"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">First Steps →</h3>
-            <div className="text-lg">
-              Just the basics - Everything you need to know to set up your
-              database and authentication.
-            </div>
-          </Link>
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/introduction"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">Documentation →</h3>
-            <div className="text-lg">
-              Learn more about Create T3 App, the libraries it uses, and how to
-              deploy it.
-            </div>
-          </Link>
-        </div>
-      </div>
-    </main>
+    <div className="min-h-screen bg-[#F9FAFB]">
+      <Header
+        onSearch={handleSearch}
+        onRandomCompany={handleRandomCompany}
+        onLogoClick={handleReturnHome}
+        showSearch={!singleCompanyId}
+      />
+      <main className="container mx-auto px-4 pb-20">
+        {!singleCompanyId && (
+          <CategoryNav
+            categories={categories}
+            selectedCategory={selectedCategory}
+            onSelectCategory={handleCategorySelect}
+          />
+        )}
+        <CompanyGrid
+          companies={filteredCompanies}
+          singleView={!!singleCompanyId}
+          onReturnHome={handleReturnHome}
+        />
+      </main>
+      <FeelingLuckyButton onClick={handleRandomCompany} />
+    </div>
   );
 }
