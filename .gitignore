@@ -46,6 +46,7 @@ yarn-error.log*
 .idea
 
 # cursor
+.vscode
 .cursor
 tasks
 
