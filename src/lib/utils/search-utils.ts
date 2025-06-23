@@ -32,7 +32,7 @@ export function searchCompanies(companies: Company[], options: SearchOptions): C
 export function getRandomCompany(companies: Company[]): Company | null {
   if (companies.length === 0) return null;
   const randomIndex = Math.floor(Math.random() * companies.length);
-  return companies[randomIndex] || null;
+  return companies[randomIndex] ?? null;
 }
 
 export function normalizeCategory(category: string): string {
@@ -54,5 +54,5 @@ export function normalizeCategory(category: string): string {
     'Other': 'other',
   };
   
-  return categoryMap[category] || category.toLowerCase();
+  return categoryMap[category] ?? category.toLowerCase();
 } 

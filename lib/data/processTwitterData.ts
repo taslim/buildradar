@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
-import { Company } from '../../types/company';
+import type { Company } from '../../types/company';
 
 // Raw data structures
 export interface RawTweet {
@@ -88,7 +88,7 @@ export const cleanAndDeduplicate = (rawCompanies: RawCompany[]): Company[] => {
     cleanCompanies.push({
       name: group.mainName,
       displayName: group.displayName,
-      url: group.urls.length > 0 ? group.urls[0] : '',
+      url: group.urls.length > 0 ? group.urls[0]! : '',
       allUrls: group.urls,
       description: group.description,
       category: group.category,
@@ -104,18 +104,20 @@ export const cleanAndDeduplicate = (rawCompanies: RawCompany[]): Company[] => {
     const key = rawCompany.name.toLowerCase().replace(/[@\s\.]/g, '');
     if (!allVariants.has(key) && !key.includes('http')) {
       if (processedCompanies.has(key)) {
-        const existing = processedCompanies.get(key)!;
-        if (!existing.sources.includes(rawCompany.source)) existing.sources.push(rawCompany.source);
-        if (rawCompany.url && !existing.allUrls.includes(rawCompany.url)) {
-          existing.allUrls.push(rawCompany.url);
-          if (!existing.url) existing.url = rawCompany.url;
+        const existing = processedCompanies.get(key);
+        if (existing) {
+          if (!existing.sources.includes(rawCompany.source)) existing.sources.push(rawCompany.source);
+          if (rawCompany.url && !existing.allUrls.includes(rawCompany.url)) {
+            existing.allUrls.push(rawCompany.url);
+            if (!existing.url) existing.url = rawCompany.url ?? '';
+          }
         }
       } else {
-        const description = rawCompany.description.split('\\n')[0].trim();
+        const description = rawCompany.description?.split('\\n')[0]?.trim() ?? '';
         processedCompanies.set(key, {
           name: rawCompany.name,
-          displayName: rawCompany.displayName || rawCompany.name.replace('@', ''),
-          url: rawCompany.url || '',
+          displayName: rawCompany.displayName ?? rawCompany.name.replace('@', ''),
+          url: rawCompany.url ?? '',
           allUrls: rawCompany.url ? [rawCompany.url] : [],
           description,
           category: categorizeCompany(description),
@@ -137,9 +139,11 @@ export const readTwitterData = (): { quotes: RawTweet[], replies: RawTweet[] } =
   try {
     const quotesData = fs.readFileSync(path.join(dataDir, 'cleaned_quotes.json'), 'utf-8');
     const repliesData = fs.readFileSync(path.join(dataDir, 'cleaned_replies.json'), 'utf-8');
+    const quotesJson = JSON.parse(quotesData) as { tweets: RawTweet[] };
+    const repliesJson = JSON.parse(repliesData) as { tweets: RawTweet[] };
     return {
-      quotes: JSON.parse(quotesData).tweets,
-      replies: JSON.parse(repliesData).tweets
+      quotes: quotesJson.tweets,
+      replies: repliesJson.tweets
     };
   } catch (error) {
     console.error("Error reading twitter data:", error);
@@ -151,10 +155,11 @@ export const expandUrl = async (url: string): Promise<string> => {
   try {
     if (url.startsWith('https://t.co/')) {
       const response = await axios.get(url, { timeout: 5000 });
-      return response.request.res.responseUrl || url;
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+      return (response.request.res as { responseUrl?: string }).responseUrl ?? url;
     }
     return url;
-  } catch (error) {
+  } catch {
     console.warn(`Could not expand URL ${url}. Retaining original.`);
     return url;
   }
@@ -200,7 +205,7 @@ export const processData = async () => {
   
   const generateStats = (companies: Company[]) => {
     const byCategory = companies.reduce((acc, company) => {
-      acc[company.category] = (acc[company.category] || 0) + 1;
+      acc[company.category] = (acc[company.category] ?? 0) + 1;
       return acc;
     }, {} as Record<string, number>);
     return {
@@ -229,7 +234,7 @@ export const processData = async () => {
 };
 
 if (require.main === module) {
-    processData().catch(error => {
+    processData().catch((error: Error) => {
     console.error('❌ Error during cleaning process:', error.message);
     process.exit(1);
   });

@@ -1,5 +1,6 @@
 import axios from 'axios';
-import { categorizeCompany, expandUrl, cleanAndDeduplicate, RawCompany } from './processTwitterData';
+import { categorizeCompany, expandUrl, cleanAndDeduplicate } from './processTwitterData';
+import type { RawCompany } from './processTwitterData';
 
 jest.mock('axios');
 const mockedAxios = axios as jest.Mocked<typeof axios>;
@@ -31,6 +32,7 @@ describe('processTwitterData', () => {
       
       const result = await expandUrl(originalUrl);
       expect(result).toBe(expandedUrl);
+      // eslint-disable-next-line @typescript-eslint/unbound-method
       expect(mockedAxios.get).toHaveBeenCalledWith(originalUrl, { timeout: 5000 });
     });
 
@@ -38,6 +40,7 @@ describe('processTwitterData', () => {
       const originalUrl = 'https://example.com';
       const result = await expandUrl(originalUrl);
       expect(result).toBe(originalUrl);
+      // eslint-disable-next-line @typescript-eslint/unbound-method
       expect(mockedAxios.get).not.toHaveBeenCalled();
     });
 

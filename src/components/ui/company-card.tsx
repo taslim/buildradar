@@ -28,7 +28,7 @@ export const CompanyCard: React.FC<CompanyCardProps> = ({ company }) => {
             color: category?.color,
           }}
         >
-          {category?.name || 'Uncategorized'}
+          {category?.name ?? 'Uncategorized'}
         </span>
         <span className="text-sm text-gray-500">{company.name}</span>
       </div>

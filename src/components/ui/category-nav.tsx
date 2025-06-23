@@ -19,6 +19,22 @@ export const CategoryNav: React.FC<CategoryNavProps> = ({
   const [showRightFade, setShowRightFade] = useState(true);
   const [showAllCategories, setShowAllCategories] = useState(false);
 
+  // Prevent body scroll when bottom sheet is open
+  useEffect(() => {
+    if (showAllCategories) {
+      // Prevent scrolling on the body
+      document.body.classList.add('scroll-lock');
+    } else {
+      // Re-enable scrolling on the body
+      document.body.classList.remove('scroll-lock');
+    }
+
+    // Cleanup function to ensure scroll is re-enabled when component unmounts
+    return () => {
+      document.body.classList.remove('scroll-lock');
+    };
+  }, [showAllCategories]);
+
   const handleScroll = () => {
     if (!scrollRef.current) return;
     const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
