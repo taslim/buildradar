@@ -22,7 +22,7 @@ export default function DisclaimerPage() {
               Quick Heads Up! 👋
             </h1>
             <p className="text-gray-600">
-              Here's what you should know about BuildRadar
+              Here&apos;s what you should know about BuildRadar
             </p>
           </div>
 
@@ -32,11 +32,11 @@ export default function DisclaimerPage() {
                 <span className="text-2xl">🤖</span>
                 <div>
                   <h2 className="font-semibold text-blue-900 mb-2">
-                    This data wasn't verified
+                    This data wasn&apos;t verified
                   </h2>
                   <p className="text-blue-800 text-sm">
                     We automatically scraped Twitter replies and quotes to build this directory. 
-                    Some info might be wrong, outdated, or missing since we haven't manually checked everything.
+                    Some info might be wrong, outdated, or missing since we haven&apos;t manually checked everything.
                   </p>
                 </div>
               </div>
@@ -47,10 +47,10 @@ export default function DisclaimerPage() {
                 <span className="text-2xl">📸</span>
                 <div>
                   <h2 className="font-semibold text-amber-900 mb-2">
-                    It's a snapshot, not live data
+                    It&apos;s a snapshot, not live data
                   </h2>
                   <p className="text-amber-800 text-sm">
-                    This is a one-time pull from Twitter, so new companies and updates won't appear here. 
+                    This is a one-time pull from Twitter, so new companies and updates won&apos;t appear here. 
                     Think of it as exploring a moment in time.
                   </p>
                 </div>
@@ -76,7 +76,7 @@ export default function DisclaimerPage() {
               <p className="text-sm text-gray-600 text-center">
                 Found something wrong? This is open source! 
                 <a
-                  href="https://github.com/taslimislamjoy/buildradar"
+                  href="https://github.com/taslim/buildradar"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium ml-1"
@@ -89,7 +89,7 @@ export default function DisclaimerPage() {
             <div className="text-xs text-gray-500 text-center border-t border-gray-200 pt-4">
               <p>
                 By using BuildRadar, you understand these limitations. 
-                We're not responsible for decisions made based on this data, 
+                We&apos;re not responsible for decisions made based on this data, 
                 but we hope you discover some amazing companies! 🚀
               </p>
             </div>
