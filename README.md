@@ -1,29 +1,149 @@
-# Create T3 App
+# BuildRadar
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+BuildRadar is a curated discovery platform showcasing innovative African startups and businesses. By analyzing social media conversations, we identify and categorize emerging companies across various industries, creating a comprehensive directory of the African startup ecosystem.
 
-## What's next? How do I make an app with this?
+## 🚀 What is BuildRadar?
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+BuildRadar processes Twitter data to discover and showcase African businesses and startups. The platform automatically:
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- **Discovers** companies mentioned in entrepreneurship conversations
+- **Categorizes** businesses across 13+ industry verticals
+- **Curates** company profiles with descriptions and links
+- **Provides** an intuitive search and discovery interface
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## 🎯 Features
 
-## Learn More
+- **Smart Search**: Find companies by name, description, or industry
+- **Category Navigation**: Browse businesses by sector (FinTech, EdTech, HealthTech, etc.)
+- **Company Profiles**: Detailed information including descriptions, websites, and social links
+- **Feeling Lucky**: Discover random companies for serendipitous exploration
+- **Responsive Design**: Optimized for desktop and mobile experiences
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## 🏢 Industry Categories
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+- **FinTech** - Financial technology and payments
+- **EdTech** - Education and learning platforms  
+- **HealthTech/MedTech** - Healthcare and medical technology
+- **AgriTech/Food** - Agriculture and food technology
+- **Creative/Design** - Creative agencies and design services
+- **E-commerce/Marketplace** - Online retail and marketplaces
+- **Real Estate/PropTech** - Property and real estate technology
+- **Blockchain/Web3** - Cryptocurrency and decentralized technologies
+- **Technology/Software** - Software development and SaaS
+- **Energy/CleanTech** - Clean energy and sustainability
+- **Transportation/Logistics** - Mobility and logistics solutions
+- **Social/Community** - Social platforms and community tools
+- **Marketing/AdTech** - Marketing and advertising technology
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## How do I deploy this?
+- **Framework**: Next.js 15 with React 19
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Package Manager**: pnpm
+- **Data Processing**: Custom Twitter data analysis pipeline
+- **Deployment**: Optimized for Vercel
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## 🚦 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- pnpm (recommended package manager)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/buildradar.git
+cd buildradar
+
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+## 📊 Data Processing
+
+BuildRadar includes a sophisticated data processing pipeline that:
+
+1. **Ingests** Twitter conversation data about African startups
+2. **Extracts** company mentions, URLs, and descriptions
+3. **Categorizes** companies using keyword analysis
+4. **Deduplicates** entries to maintain data quality
+5. **Generates** clean, structured company profiles
+
+The processing pipeline can be found in `lib/data/processTwitterData.ts`.
+
+## 🎨 Project Structure
+
+```
+buildradar/
+├── src/
+│   ├── app/                 # Next.js app router pages
+│   ├── components/ui/       # Reusable UI components
+│   └── lib/                 # Utilities and data processing
+├── lib/
+│   ├── categorization/      # Industry categorization logic
+│   └── data/               # Data processing pipeline
+├── types/                   # TypeScript type definitions
+├── data/                    # Processed company data
+└── public/                  # Static assets
+```
+
+## 🤝 Contributing
+
+We welcome contributions to BuildRadar! Whether you're:
+
+- Adding new companies to the database
+- Improving categorization logic
+- Enhancing the user interface
+- Fixing bugs or adding features
+
+Please feel free to submit issues and pull requests.
+
+## 📈 Company Data
+
+Currently showcasing **115+ African companies** across **12+ industry categories**, with data sourced from entrepreneurship conversations and startup communities.
+
+## 📝 Scripts
+
+```bash
+# Development
+pnpm dev              # Start development server
+pnpm build            # Build for production
+pnpm start            # Start production server
+
+# Code Quality
+pnpm lint             # Run ESLint
+pnpm lint:fix         # Fix ESLint issues
+pnpm typecheck        # Type checking
+pnpm format:check     # Check code formatting
+pnpm format:write     # Format code
+
+# Testing
+pnpm test             # Run tests
+```
+
+## 🚀 Deployment
+
+BuildRadar is optimized for deployment on Vercel:
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with zero configuration
+
+For other platforms, run `pnpm build` to generate the production build.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ for the African startup ecosystem
