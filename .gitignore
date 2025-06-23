@@ -48,5 +48,5 @@ yarn-error.log*
 # cursor
 .cursor
 
-# raw json from twitter
+# raw twitter json
 twitter_data

@@ -1,0 +1,1697 @@
+{
+  "metadata": {
+    "processedAt": "2025-06-22T19:15:25.510Z",
+    "totalCompanies": 115,
+    "totalCategories": 12,
+    "companiesWithUrls": 27,
+    "categoriesBreakdown": {
+      "AgriTech/Food": 3,
+      "Blockchain/Web3": 1,
+      "Creative/Design": 23,
+      "E-commerce/Marketplace": 5,
+      "EdTech": 10,
+      "Energy/CleanTech": 1,
+      "FinTech": 10,
+      "Healthcare/MedTech": 7,
+      "Other": 39,
+      "Real Estate/PropTech": 3,
+      "Social/Community": 1,
+      "Technology/Software": 12
+    }
+  },
+  "companies": [
+    {
+      "name": "@EbunFarmsResort",
+      "displayName": "Ebun Farms and Holiday Resort",
+      "url": "",
+      "allUrls": [],
+      "description": "We’re building Ebun Farms &amp; Holiday Resort @EbunFarmsResort, a visionary space where agriculture meets eco-tourism in Nigeria. From sustainable soybean farming to nature-inspired retreats, we’re crafting a farm-to-relaxation hub that nourishes both land and soul. #EbunFarms",
+      "category": "AgriTech/Food",
+      "sources": [
+        "princedaps"
+      ],
+      "variants": [
+        "@EbunFarmsResort"
+      ]
+    },
+    {
+      "name": "@Gbo2FarmsInc",
+      "displayName": "Gbo2Farms",
+      "url": "",
+      "allUrls": [],
+      "description": "@Gbo2FarmsInc",
+      "category": "AgriTech/Food",
+      "sources": [
+        "SirGbollyy"
+      ],
+      "variants": [
+        "@Gbo2FarmsInc"
+      ]
+    },
+    {
+      "name": "@RaynativeFarm",
+      "displayName": "Raynative Smart Farm 🇳🇬",
+      "url": "",
+      "allUrls": [],
+      "description": "@RaynativeFarm Farm of the future",
+      "category": "AgriTech/Food",
+      "sources": [
+        "WithChiroma"
+      ],
+      "variants": [
+        "@RaynativeFarm"
+      ]
+    },
+    {
+      "name": "@0xEdenFi",
+      "displayName": "Garden of Eden, On Chain 🪴",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @0xEdenFi , holding major shares of RWA on chain on @rwaassetchain",
+      "category": "Blockchain/Web3",
+      "sources": [
+        "codemon_"
+      ],
+      "variants": [
+        "@0xEdenFi"
+      ]
+    },
+    {
+      "name": "@cv2essence",
+      "displayName": "CV.2ESSENCE | CAREERS",
+      "url": "",
+      "allUrls": [],
+      "description": "First thing first, @cv2essence: a career development platform for job seekers and recruiters.\n\n@fashioncloneit: a fashion media brand.\n\nAnd I'm building myself as an entrepreneur, corporate professional and content creator. 😂",
+      "category": "Creative/Design",
+      "sources": [
+        "tootrillionaire"
+      ],
+      "variants": [
+        "@cv2essence"
+      ]
+    },
+    {
+      "name": "@Ensio_Creative",
+      "displayName": "Ensio Creative",
+      "url": "",
+      "allUrls": [],
+      "description": "@Ensio_Creative - A design and strategic agency crafting impactful and human-centered experiences for ambitious businesses/brands taking them beyond ideas into dynamic reality for success.",
+      "category": "Creative/Design",
+      "sources": [
+        "IamUgoGabriel"
+      ],
+      "variants": [
+        "@Ensio_Creative"
+      ]
+    },
+    {
+      "name": "@fashioncloneit",
+      "displayName": "Fashion CloneIt",
+      "url": "",
+      "allUrls": [],
+      "description": "First thing first, @cv2essence: a career development platform for job seekers and recruiters.\n\n@fashioncloneit: a fashion media brand.\n\nAnd I'm building myself as an entrepreneur, corporate professional and content creator. 😂",
+      "category": "Creative/Design",
+      "sources": [
+        "tootrillionaire"
+      ],
+      "variants": [
+        "@fashioncloneit"
+      ]
+    },
+    {
+      "name": "@Kolabbbhq",
+      "displayName": "Kolabbb",
+      "url": "",
+      "allUrls": [],
+      "description": "@Kolabbbhq a collaboration platform amongst creatives in the entertainment industry.",
+      "category": "Creative/Design",
+      "sources": [
+        "fanen_ter"
+      ],
+      "variants": [
+        "@Kolabbbhq"
+      ]
+    },
+    {
+      "name": "@LuxelaPlace",
+      "displayName": "Luxela | Break out Hackathon",
+      "url": "",
+      "allUrls": [],
+      "description": "@LuxelaPlace a Fashion marketplace on Solana to shop for quality, fashion items from small-scale brands, independent creators.",
+      "category": "Creative/Design",
+      "sources": [
+        "Sam_Ultron"
+      ],
+      "variants": [
+        "@LuxelaPlace"
+      ]
+    },
+    {
+      "name": "@Motosmartng",
+      "displayName": "Motosmart Automotive Service",
+      "url": "",
+      "allUrls": [],
+      "description": "@Motosmartng a brick and mortar automobile repair shop bringing informed car maintenance solutions to middle class and upper class car owners in and around warri.",
+      "category": "Creative/Design",
+      "sources": [
+        "Opeyemiisule"
+      ],
+      "variants": [
+        "@Motosmartng"
+      ]
+    },
+    {
+      "name": "@Nkemcreatives",
+      "displayName": "Nkem Creatives",
+      "url": "",
+      "allUrls": [],
+      "description": "A podcast service company @Nkemcreatives",
+      "category": "Creative/Design",
+      "sources": [
+        "Chimnwendum"
+      ],
+      "variants": [
+        "@Nkemcreatives"
+      ]
+    },
+    {
+      "name": "@prowlglobal",
+      "displayName": "PROWL",
+      "url": "",
+      "allUrls": [],
+      "description": "building an ecosystem (@prowlglobal) where young and emerging independent (African) creatives are empowered with the inspiration and freedom to create.",
+      "category": "Creative/Design",
+      "sources": [
+        "ayolukorede"
+      ],
+      "variants": [
+        "@prowlglobal"
+      ]
+    },
+    {
+      "name": "@siliconverse",
+      "displayName": "Silicon Verse",
+      "url": "",
+      "allUrls": [],
+      "description": "Siliconverse \n@siliconverse  \nhttps://t.co/qdYPZpWCIY \n\nTo connect tech talents to startups and SMEs.",
+      "category": "Creative/Design",
+      "sources": [
+        "amaechinonso"
+      ],
+      "variants": [
+        "@siliconverse"
+      ]
+    },
+    {
+      "name": "@starkmarts",
+      "displayName": "STARKMARTS",
+      "url": "",
+      "allUrls": [],
+      "description": "@starkmarts !",
+      "category": "Creative/Design",
+      "sources": [
+        "dat_darey"
+      ],
+      "variants": [
+        "@starkmarts"
+      ]
+    },
+    {
+      "name": "@The_Sparrowed_",
+      "displayName": "PairEdge Systems",
+      "url": "",
+      "allUrls": [],
+      "description": "Largest business networks saving costs and enabling growth partnerships for brands across Africa @The_Sparrowed_",
+      "category": "Creative/Design",
+      "sources": [
+        "UzuegbucollinsF"
+      ],
+      "variants": [
+        "@The_Sparrowed_"
+      ]
+    },
+    {
+      "name": "@themoospire",
+      "displayName": "Moospire",
+      "url": "",
+      "allUrls": [],
+      "description": "@themoospire \n\nAll In One Moodboard Tools for Creatives\nhttps://t.co/KigaLZULmB https://t.co/c98U1X8PXP",
+      "category": "Creative/Design",
+      "sources": [
+        "nfsofiat"
+      ],
+      "variants": [
+        "@themoospire"
+      ]
+    },
+    {
+      "name": "@TivityTech",
+      "displayName": "Tivity Technologies",
+      "url": "",
+      "allUrls": [],
+      "description": "Solar Ebike Charging Station \n@TivityTech \n\nE-bikes are getting popular in Nigeria, but we lack charging infrastructure.\n\nWe designed this charging station from scratch, they  run on solar, they're IoT enabled with a dashboard for remote monitoring &amp; control. https://t.co/rzsWgNQmBi",
+      "category": "Creative/Design",
+      "sources": [
+        "Michaelmeon_"
+      ],
+      "variants": [
+        "@TivityTech"
+      ]
+    },
+    {
+      "name": "@TorStudio_",
+      "displayName": "Tor Studio",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @TorStudio_ for businesses that want to craft beautiful experiences and drive growth through brand and motion design.",
+      "category": "Creative/Design",
+      "sources": [
+        "victoralfred_"
+      ],
+      "variants": [
+        "@TorStudio_"
+      ]
+    },
+    {
+      "name": "@TrySocials",
+      "displayName": "try socials",
+      "url": "",
+      "allUrls": [],
+      "description": "a hub where creatives, business owners and brands can get solutions to creative problems @TrySocials 🥹",
+      "category": "Creative/Design",
+      "sources": [
+        "Literatus_V"
+      ],
+      "variants": [
+        "@TrySocials"
+      ]
+    },
+    {
+      "name": "@use24cart",
+      "displayName": "24Cart",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @use24cart \n\n24cart makes grocery shopping effortless for individuals and families",
+      "category": "Creative/Design",
+      "sources": [
+        "tajscript"
+      ],
+      "variants": [
+        "@use24cart"
+      ]
+    },
+    {
+      "name": "clubspace.so",
+      "displayName": "clubspace.so",
+      "url": "http://clubspace.so",
+      "allUrls": [
+        "http://clubspace.so"
+      ],
+      "description": "Social media is noisy.\n\nSo, I’m focusing on building privacy-first tools for thinkers and community builders via https://t.co/gLqD7fmMn5 and https://t.co/Lv3JIvEvQO respectively.",
+      "category": "Creative/Design",
+      "sources": [
+        "misteryomi"
+      ],
+      "variants": [
+        "clubspace.so"
+      ]
+    },
+    {
+      "name": "jaba-waitlist.vercel.app",
+      "displayName": "jaba-waitlist.vercel.app",
+      "url": "http://jaba-waitlist.vercel.app",
+      "allUrls": [
+        "http://jaba-waitlist.vercel.app"
+      ],
+      "description": "I am building Jaba, an AI-powered e-commerce that connects farmers directly to consumers. Jaba helps farmers sell smarter and provides buyers with fresh food at fair prices. \n\nJaba is re-engineering the African food system.\n\njoin our waitlist 👉 https://t.co/ENwOeGEbuu",
+      "category": "Creative/Design",
+      "sources": [
+        "_afactor"
+      ],
+      "variants": [
+        "jaba-waitlist.vercel.app"
+      ]
+    },
+    {
+      "name": "learndigitalsales.com",
+      "displayName": "learndigitalsales.com",
+      "url": "http://www.learndigitalsales.com",
+      "allUrls": [
+        "http://www.learndigitalsales.com"
+      ],
+      "description": "https://t.co/MjaHKoHox2 An AI Sales Coach helping for Enterprise Sales teams in AdTech, Martech, Media and Advertising troubleshoot stuck deals and close them.",
+      "category": "Creative/Design",
+      "sources": [
+        "ibukun_onitiju"
+      ],
+      "variants": [
+        "learndigitalsales.com"
+      ]
+    },
+    {
+      "name": "moospire.com",
+      "displayName": "moospire.com",
+      "url": "http://moospire.com",
+      "allUrls": [
+        "http://moospire.com"
+      ],
+      "description": "@themoospire \n\nAll In One Moodboard Tools for Creatives\nhttps://t.co/KigaLZULmB https://t.co/c98U1X8PXP",
+      "category": "Creative/Design",
+      "sources": [
+        "nfsofiat"
+      ],
+      "variants": [
+        "moospire.com"
+      ]
+    },
+    {
+      "name": "siliconverse.net",
+      "displayName": "siliconverse.net",
+      "url": "http://www.siliconverse.net",
+      "allUrls": [
+        "http://www.siliconverse.net"
+      ],
+      "description": "Siliconverse \n@siliconverse  \nhttps://t.co/qdYPZpWCIY \n\nTo connect tech talents to startups and SMEs.",
+      "category": "Creative/Design",
+      "sources": [
+        "amaechinonso"
+      ],
+      "variants": [
+        "siliconverse.net"
+      ]
+    },
+    {
+      "name": "t.me/MGSopportuniti…",
+      "displayName": "t.me/MGSopportuniti…",
+      "url": "https://t.me/MGSopportunitiesHaven",
+      "allUrls": [
+        "https://t.me/MGSopportunitiesHaven"
+      ],
+      "description": "Building @MugenicStridehq a solutions brand helping businesses improve customer service, creating job opportunities through event staffing @MGS_Ushering , and connecting young Africans to life-changing opportunities.(MGS Opportunities Haven).\n\nhttps://t.co/4N4GKmnUec\n\n😊",
+      "category": "Creative/Design",
+      "sources": [
+        "ChimuanyaDike"
+      ],
+      "variants": [
+        "t.me/MGSopportuniti…"
+      ]
+    },
+    {
+      "name": "Ventnote.com",
+      "displayName": "Ventnote.com",
+      "url": "http://Ventnote.com",
+      "allUrls": [
+        "http://Ventnote.com"
+      ],
+      "description": "Social media is noisy.\n\nSo, I’m focusing on building privacy-first tools for thinkers and community builders via https://t.co/gLqD7fmMn5 and https://t.co/Lv3JIvEvQO respectively.",
+      "category": "Creative/Design",
+      "sources": [
+        "misteryomi"
+      ],
+      "variants": [
+        "Ventnote.com"
+      ]
+    },
+    {
+      "name": "@AgriConnects",
+      "displayName": "AgriConnectng",
+      "url": "",
+      "allUrls": [],
+      "description": "@AgriConnects an AI powered platform that recommends the best crops/what to plant for farmers based on their soil and a marketplace where you get to buy farm produce.",
+      "category": "E-commerce/Marketplace",
+      "sources": [
+        "lifewithhe"
+      ],
+      "variants": [
+        "@AgriConnects"
+      ]
+    },
+    {
+      "name": "@askbisi",
+      "displayName": "AskBisi",
+      "url": "",
+      "allUrls": [],
+      "description": "Trust in vendors and small businesses @askbisi",
+      "category": "E-commerce/Marketplace",
+      "sources": [
+        "wolemercy"
+      ],
+      "variants": [
+        "@askbisi"
+      ]
+    },
+    {
+      "name": "@buyflowersng",
+      "displayName": "BuyFlowers",
+      "url": "",
+      "allUrls": [],
+      "description": "@buyflowersng : Nationwide flower delivery powered by local vendors.💐\n\n@NeoformAI : Undoing the tower of Babylon language effect 😌",
+      "category": "E-commerce/Marketplace",
+      "sources": [
+        "Oyemade_"
+      ],
+      "variants": [
+        "@buyflowersng"
+      ]
+    },
+    {
+      "name": "@NeoformAI",
+      "displayName": "Neoform",
+      "url": "",
+      "allUrls": [],
+      "description": "@buyflowersng : Nationwide flower delivery powered by local vendors.💐\n\n@NeoformAI : Undoing the tower of Babylon language effect 😌",
+      "category": "E-commerce/Marketplace",
+      "sources": [
+        "Oyemade_"
+      ],
+      "variants": [
+        "@NeoformAI"
+      ]
+    },
+    {
+      "name": "@stylebitt",
+      "displayName": "Stylebitt",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @stylebitt, the OS for African fashion businesses.",
+      "category": "E-commerce/Marketplace",
+      "sources": [
+        "ibrahimygana"
+      ],
+      "variants": [
+        "@stylebitt"
+      ]
+    },
+    {
+      "name": "@AltSchoolAfrica",
+      "displayName": "AltSchool Africa",
+      "url": "",
+      "allUrls": [],
+      "description": "#OnairwithOdaniels to inspire young minds, that school is not scam this is a GWR attempt for 120hours @AltSchoolAfrica be our guest we will love to host with you @OlusegunDaniels https://t.co/olfLWdj4nu",
+      "category": "EdTech",
+      "sources": [
+        "dhayve_"
+      ],
+      "variants": [
+        "@AltSchoolAfrica"
+      ]
+    },
+    {
+      "name": "@courseqrapp",
+      "displayName": "CourseQR",
+      "url": "",
+      "allUrls": [],
+      "description": "@courseqrapp - The Future of Learning",
+      "category": "EdTech",
+      "sources": [
+        "Fashorantilanre"
+      ],
+      "variants": [
+        "@courseqrapp"
+      ]
+    },
+    {
+      "name": "@kampus_abode",
+      "displayName": "KampusAbode",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @kampus_abode \nA platform that helps students rent outside campus hostels seamlessly.",
+      "category": "EdTech",
+      "sources": [
+        "davizzygreat"
+      ],
+      "variants": [
+        "@kampus_abode"
+      ]
+    },
+    {
+      "name": "@mystackjunior",
+      "displayName": "StackJunior",
+      "url": "",
+      "allUrls": [],
+      "description": "@mystackjunior Helping K-12 schools equip their students with modern AI skills. https://t.co/lXeLxwvgAp",
+      "category": "EdTech",
+      "sources": [
+        "codingSalafi"
+      ],
+      "variants": [
+        "@mystackjunior"
+      ]
+    },
+    {
+      "name": "@OlusegunDaniels",
+      "displayName": "odaniels_od",
+      "url": "",
+      "allUrls": [],
+      "description": "#OnairwithOdaniels to inspire young minds, that school is not scam this is a GWR attempt for 120hours @AltSchoolAfrica be our guest we will love to host with you @OlusegunDaniels https://t.co/olfLWdj4nu",
+      "category": "EdTech",
+      "sources": [
+        "dhayve_"
+      ],
+      "variants": [
+        "@OlusegunDaniels"
+      ]
+    },
+    {
+      "name": "@techkiddies",
+      "displayName": "Tech Kiddies",
+      "url": "https://www.youtube.com/@TechKiddies",
+      "allUrls": [
+        "https://www.youtube.com/@TechKiddies"
+      ],
+      "description": "Empowering kids with digital and future skills",
+      "category": "EdTech",
+      "sources": [
+        "AA_DrSmith"
+      ],
+      "variants": [
+        "@techkiddies",
+        "youtube.com/@TechKiddies",
+        "@TechKiddies"
+      ]
+    },
+    {
+      "name": "@ThisIsLearnable",
+      "displayName": "ThisIsLearnable",
+      "url": "",
+      "allUrls": [],
+      "description": "Built @thisIsLearnable for portfolio-first learners.\n\nLearn by doing, not by just watching.",
+      "category": "EdTech",
+      "sources": [
+        "misteryomi"
+      ],
+      "variants": [
+        "@ThisIsLearnable"
+      ]
+    },
+    {
+      "name": "@UseStudkey",
+      "displayName": "Studkey",
+      "url": "",
+      "allUrls": [],
+      "description": "@UseStudkey Helping African Students search, find, inspect and secure verified, quality Accommodation within 5km - 10km distance to their tertiary institutions while providing quality maintenance and management structure for a fulfilling student living experience.",
+      "category": "EdTech",
+      "sources": [
+        "TushDayoPearl"
+      ],
+      "variants": [
+        "@UseStudkey"
+      ]
+    },
+    {
+      "name": "future.stackjunior.com",
+      "displayName": "future.stackjunior.com",
+      "url": "http://future.stackjunior.com",
+      "allUrls": [
+        "http://future.stackjunior.com"
+      ],
+      "description": "@mystackjunior Helping K-12 schools equip their students with modern AI skills. https://t.co/lXeLxwvgAp",
+      "category": "EdTech",
+      "sources": [
+        "codingSalafi"
+      ],
+      "variants": [
+        "future.stackjunior.com"
+      ]
+    },
+    {
+      "name": "naijalangua.com",
+      "displayName": "naijalangua.com",
+      "url": "https://naijalangua.com",
+      "allUrls": [
+        "https://naijalangua.com"
+      ],
+      "description": "Building Naija-Langua, where you can learn any Nigerian language from anywhere in the world.\n\nhttps://t.co/NCMrnhy9ok https://t.co/jx8alq4pt1",
+      "category": "EdTech",
+      "sources": [
+        "bigext1"
+      ],
+      "variants": [
+        "naijalangua.com"
+      ]
+    },
+    {
+      "name": "@lbs_energy",
+      "displayName": "Lbs Energy",
+      "url": "",
+      "allUrls": [],
+      "description": "Clean energy to off-grid small businesses in rural Africa @lbs_energy",
+      "category": "Energy/CleanTech",
+      "sources": [
+        "lbs_energy"
+      ],
+      "variants": [
+        "@lbs_energy"
+      ]
+    },
+    {
+      "name": "@cngn_co",
+      "displayName": "cNGN Stablecoin",
+      "url": "",
+      "allUrls": [],
+      "description": "With cNGN @cngn_co, a naira backed stablecoin, pegged 1:1 to the naira, we're building to give you \n– Instant transactions\n – Global access\n– Security &amp; transparency\n– Naira stability in a digital form.\ncNGN is built on @rwaassetchain Layer-1 blockchain. Check it out sir!",
+      "category": "FinTech",
+      "sources": [
+        "Wuyepsonjnr"
+      ],
+      "variants": [
+        "@cngn_co"
+      ]
+    },
+    {
+      "name": "@FundableHQ",
+      "displayName": "Fundable Finance",
+      "url": "",
+      "allUrls": [],
+      "description": "We're building @FundableHQ, a chain-agnostic platform that leverages smart contract infrastructure to power transparent and secure treasury operations at enterprise scale. It enables DAOs, startups, and protocols to streamline financial workflows, reduce operational overhead, and",
+      "category": "FinTech",
+      "sources": [
+        "FundableHQ"
+      ],
+      "variants": [
+        "@FundableHQ"
+      ]
+    },
+    {
+      "name": "@Mollet_app",
+      "displayName": "Mollet",
+      "url": "https://elisee-oueffa-portfolio.super.site/",
+      "allUrls": [
+        "https://elisee-oueffa-portfolio.super.site/",
+        "https://linktr.ee/elikemmedehou"
+      ],
+      "description": "A fully automated app that tracks and manages your mobile money finances without internet connection",
+      "category": "FinTech",
+      "sources": [
+        "elisee_oueffa",
+        "elikemmedehou"
+      ],
+      "variants": [
+        "@Mollet_app",
+        "elisee-oueffa-portfolio.super.site",
+        "linktr.ee/elikemmedehou"
+      ]
+    },
+    {
+      "name": "@rwaassetchain",
+      "displayName": "Asset Chain 🌍 (AI-RWA L1)",
+      "url": "",
+      "allUrls": [],
+      "description": "With cNGN @cngn_co, a naira backed stablecoin, pegged 1:1 to the naira, we're building to give you \n– Instant transactions\n – Global access\n– Security &amp; transparency\n– Naira stability in a digital form.\ncNGN is built on @rwaassetchain Layer-1 blockchain. Check it out sir!",
+      "category": "FinTech",
+      "sources": [
+        "Wuyepsonjnr",
+        "codemon_"
+      ],
+      "variants": [
+        "@rwaassetchain"
+      ]
+    },
+    {
+      "name": "@salarioafrica",
+      "displayName": "Salario",
+      "url": "",
+      "allUrls": [],
+      "description": "Employee data is scattered and disconnect across HR, IT &amp; Finance department. \nI'm building the OS for workforce management @salarioafrica to help businesses centralize their operations from employee onboarding, payroll and  compliance. https://t.co/dEUHhQhQim",
+      "category": "FinTech",
+      "sources": [
+        "mishfied4life"
+      ],
+      "variants": [
+        "@salarioafrica"
+      ]
+    },
+    {
+      "name": "@stableflowng",
+      "displayName": "StableFlow Nigeria",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @stableflowng a platform to help businesses accept stablecoins payments and instant fiat payouts.",
+      "category": "FinTech",
+      "sources": [
+        "iamkumapee"
+      ],
+      "variants": [
+        "@stableflowng"
+      ]
+    },
+    {
+      "name": "@xion_nigeria",
+      "displayName": "XION Nigeria 🇳🇬",
+      "url": "",
+      "allUrls": [],
+      "description": "15 teams from @xion_nigeria are building.\n\nFood delivery,  cross border Payments, Short- video formed educational games, Fractionalized Real Estate, USDC Multi-sig savings, Proof of Presence.\n\nI'm building @xion_nigeria",
+      "category": "FinTech",
+      "sources": [
+        "DrSilverstone"
+      ],
+      "variants": [
+        "@xion_nigeria"
+      ]
+    },
+    {
+      "name": "@ZenfiPay",
+      "displayName": "ZenfiPay",
+      "url": "",
+      "allUrls": [],
+      "description": "@ZenfiPay A cross-border payment platform",
+      "category": "FinTech",
+      "sources": [
+        "DavidPage0"
+      ],
+      "variants": [
+        "@ZenfiPay"
+      ]
+    },
+    {
+      "name": "manomsolutions.com",
+      "displayName": "manomsolutions.com",
+      "url": "http://manomsolutions.com",
+      "allUrls": [
+        "http://manomsolutions.com"
+      ],
+      "description": "Payment platform for Small businesses using creative business strategies. The platform leverage Artificial Intelligence and Blockchain Technology to provide unlimited solutions. \nhttps://t.co/CPhDur444I",
+      "category": "FinTech",
+      "sources": [
+        "Acolade_designs"
+      ],
+      "variants": [
+        "manomsolutions.com"
+      ]
+    },
+    {
+      "name": "Softway.finance",
+      "displayName": "Softway.finance",
+      "url": "http://Softway.finance",
+      "allUrls": [
+        "http://Softway.finance"
+      ],
+      "description": "https://t.co/gzoVgzAXRW -Contactless payment for Africa.",
+      "category": "FinTech",
+      "sources": [
+        "beejayBot"
+      ],
+      "variants": [
+        "Softway.finance"
+      ]
+    },
+    {
+      "name": "@allhealthone",
+      "displayName": "HealthForAll Initiative For Community Health",
+      "url": "",
+      "allUrls": [],
+      "description": "Building public health interventions through @allhealthone",
+      "category": "Healthcare/MedTech",
+      "sources": [
+        "kenny6509"
+      ],
+      "variants": [
+        "@allhealthone"
+      ]
+    },
+    {
+      "name": "@askthedochq",
+      "displayName": "AskTheDoc.hq",
+      "url": "",
+      "allUrls": [],
+      "description": "@askthedochq a telehealth platform that connects adolescents and young people seeking sexual and reproductive health services to qualified medical professionals!\n\nAccess to sexual health services is a human right and young people shouldn’t be left behind.",
+      "category": "Healthcare/MedTech",
+      "sources": [
+        "thedrodunola"
+      ],
+      "variants": [
+        "@askthedochq"
+      ]
+    },
+    {
+      "name": "@MedintechAfrica",
+      "displayName": "Medintech Africa",
+      "url": "",
+      "allUrls": [],
+      "description": "I am building Africa's first hands-on, cross-institutional, student-led and clinically grounded health technology incubator preparing students not just to learn healthtech but to lead it.\n\n@MedintechAfrica",
+      "category": "Healthcare/MedTech",
+      "sources": [
+        "IsaacEkundayo_"
+      ],
+      "variants": [
+        "@MedintechAfrica"
+      ]
+    },
+    {
+      "name": "@PanaceaAid",
+      "displayName": "PanaceaFirstAid",
+      "url": "",
+      "allUrls": [],
+      "description": "@PanaceaAid a social enterprise dedicated to providing comprehensive first aid solutions, including event safety services, first aid training, and the sale of first aid kits.",
+      "category": "Healthcare/MedTech",
+      "sources": [
+        "thedrodunola"
+      ],
+      "variants": [
+        "@PanaceaAid"
+      ]
+    },
+    {
+      "name": "@thehealthcityhq",
+      "displayName": "The Health City",
+      "url": "",
+      "allUrls": [],
+      "description": "@thehealthcityhq \nA social enterprise that provides young people with preventive health information and services in order to enable them make informed decisions about their health.\n\nWe’re poised to use media to improve health outcomes.",
+      "category": "Healthcare/MedTech",
+      "sources": [
+        "thedrodunola"
+      ],
+      "variants": [
+        "@thehealthcityhq"
+      ]
+    },
+    {
+      "name": "@tryprivhealth",
+      "displayName": "Priv Health",
+      "url": "",
+      "allUrls": [],
+      "description": "@tryprivhealth - healthcare for the modern man",
+      "category": "Healthcare/MedTech",
+      "sources": [
+        "josephanyaa"
+      ],
+      "variants": [
+        "@tryprivhealth"
+      ]
+    },
+    {
+      "name": "@uctsscrong",
+      "displayName": "United clinical Trials Services Support Services",
+      "url": "",
+      "allUrls": [],
+      "description": "Not a typical tech startup,  but my company @uctsscrong is a Contract Research Organization that's pushing for inclusive clinical research in Nigeria. We're building a trial data management system that helps sponsors track their data and ensure quality compliance.",
+      "category": "Healthcare/MedTech",
+      "sources": [
+        "chukwuazorm"
+      ],
+      "variants": [
+        "@uctsscrong"
+      ]
+    },
+    {
+      "name": "@AbujaFilms",
+      "displayName": "Abuja Films",
+      "url": "",
+      "allUrls": [],
+      "description": "I’m building @OrisaKraft @abujafilms and a dependency of @n8n_io",
+      "category": "Other",
+      "sources": [
+        "KabiesiAdemola"
+      ],
+      "variants": [
+        "@AbujaFilms"
+      ]
+    },
+    {
+      "name": "@assw_ng",
+      "displayName": "Association For Students Social Welfare",
+      "url": "",
+      "allUrls": [],
+      "description": "I’m building Novel Generation limited, @assw_ng",
+      "category": "Other",
+      "sources": [
+        "VictorACharis"
+      ],
+      "variants": [
+        "@assw_ng"
+      ]
+    },
+    {
+      "name": "@checkbackyard",
+      "displayName": "Backyard",
+      "url": "",
+      "allUrls": [],
+      "description": "@checkbackyard - The easiest way to buy a car",
+      "category": "Other",
+      "sources": [
+        "dontjeffit"
+      ],
+      "variants": [
+        "@checkbackyard"
+      ]
+    },
+    {
+      "name": "@compgramng",
+      "displayName": "Compgram Nigeria",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @compgramng slowly and steadily",
+      "category": "Other",
+      "sources": [
+        "ajalathearies"
+      ],
+      "variants": [
+        "@compgramng"
+      ]
+    },
+    {
+      "name": "@Corre_hq",
+      "displayName": "Corré",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @Corre_hq \n\nhttps://t.co/czwNxK1YTu",
+      "category": "Other",
+      "sources": [
+        "e_subutai"
+      ],
+      "variants": [
+        "@Corre_hq"
+      ]
+    },
+    {
+      "name": "@DevSensor",
+      "displayName": "DevSensor",
+      "url": "",
+      "allUrls": [],
+      "description": "@devsensor on-device ai that tells you how your body's doing",
+      "category": "Other",
+      "sources": [
+        "DivTheCreator"
+      ],
+      "variants": [
+        "@DevSensor"
+      ]
+    },
+    {
+      "name": "@Dynocharg",
+      "displayName": "Dynocharge",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @Dynocharg",
+      "category": "Other",
+      "sources": [
+        "Victorebukaezea"
+      ],
+      "variants": [
+        "@Dynocharg"
+      ]
+    },
+    {
+      "name": "@eXhibotng",
+      "displayName": "Exhibot Ng",
+      "url": "",
+      "allUrls": [],
+      "description": "@eXhibotng \nHardware reimagined in Africa",
+      "category": "Other",
+      "sources": [
+        "Xy63ry0rx"
+      ],
+      "variants": [
+        "@eXhibotng"
+      ]
+    },
+    {
+      "name": "@FohnAI_",
+      "displayName": "FohnAI",
+      "url": "",
+      "allUrls": [],
+      "description": "@FohnAI_  the future of Cybersecurity &amp; Intelligence.",
+      "category": "Other",
+      "sources": [
+        "bolaabanjo"
+      ],
+      "variants": [
+        "@FohnAI_"
+      ]
+    },
+    {
+      "name": "@girlies_girlies",
+      "displayName": "My Bbf’s 💕",
+      "url": "",
+      "allUrls": [],
+      "description": "@phigbofest \n@girlies_girlies \n@revamptheo68655",
+      "category": "Other",
+      "sources": [
+        "theglobalkodi"
+      ],
+      "variants": [
+        "@girlies_girlies"
+      ]
+    },
+    {
+      "name": "@justveritt",
+      "displayName": "ver",
+      "url": "",
+      "allUrls": [],
+      "description": "@justveritt",
+      "category": "Other",
+      "sources": [
+        "ShaziliSambo"
+      ],
+      "variants": [
+        "@justveritt"
+      ]
+    },
+    {
+      "name": "@klozbuy",
+      "displayName": "Klozbuy (Launching Soon)",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @klozbuy to help business reach more customers and also help regulars find a product from a nearby business. https://t.co/NDdL8FjU1N",
+      "category": "Other",
+      "sources": [
+        "CodewithVick"
+      ],
+      "variants": [
+        "@klozbuy"
+      ]
+    },
+    {
+      "name": "@Krako_cloud",
+      "displayName": "KRAKO | Decentralized AI Computing",
+      "url": "",
+      "allUrls": [],
+      "description": "We are building @Krako_cloud https://t.co/VCotezE2VD",
+      "category": "Other",
+      "sources": [
+        "Sumanta49178995"
+      ],
+      "variants": [
+        "@Krako_cloud"
+      ]
+    },
+    {
+      "name": "@lifeisswitch",
+      "displayName": "switch !",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @lifeisswitch",
+      "category": "Other",
+      "sources": [
+        "VictorJimmy"
+      ],
+      "variants": [
+        "@lifeisswitch"
+      ]
+    },
+    {
+      "name": "@Mazerance",
+      "displayName": "Mazerance",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @Mazerance 🚀",
+      "category": "Other",
+      "sources": [
+        "UfotUbon"
+      ],
+      "variants": [
+        "@Mazerance"
+      ]
+    },
+    {
+      "name": "@n8n_io",
+      "displayName": "n8n.io",
+      "url": "",
+      "allUrls": [],
+      "description": "I’m building @OrisaKraft @abujafilms and a dependency of @n8n_io",
+      "category": "Other",
+      "sources": [
+        "KabiesiAdemola"
+      ],
+      "variants": [
+        "@n8n_io"
+      ]
+    },
+    {
+      "name": "@OfficialMove9ja",
+      "displayName": "Move9ja",
+      "url": "",
+      "allUrls": [],
+      "description": "@OfficialMove9ja for @SCASH3310 https://t.co/U8Uq4C8uaS",
+      "category": "Other",
+      "sources": [
+        "Saamu_Eleja"
+      ],
+      "variants": [
+        "@OfficialMove9ja"
+      ]
+    },
+    {
+      "name": "@OneManDB",
+      "displayName": "OneManDB",
+      "url": "",
+      "allUrls": [],
+      "description": "building this 👉 @OneManDB",
+      "category": "Other",
+      "sources": [
+        "hii_mohit"
+      ],
+      "variants": [
+        "@OneManDB"
+      ]
+    },
+    {
+      "name": "@OrisaKraft",
+      "displayName": "OrisaKraft LLC",
+      "url": "",
+      "allUrls": [],
+      "description": "I’m building @OrisaKraft @abujafilms and a dependency of @n8n_io",
+      "category": "Other",
+      "sources": [
+        "KabiesiAdemola"
+      ],
+      "variants": [
+        "@OrisaKraft"
+      ]
+    },
+    {
+      "name": "@pasarHQ",
+      "displayName": "Pasar",
+      "url": "",
+      "allUrls": [],
+      "description": "@pasarHQ",
+      "category": "Other",
+      "sources": [
+        "olujimi_the_dev"
+      ],
+      "variants": [
+        "@pasarHQ"
+      ]
+    },
+    {
+      "name": "@phigbofest",
+      "displayName": "Phigbofest",
+      "url": "",
+      "allUrls": [],
+      "description": "@phigbofest \n@girlies_girlies \n@revamptheo68655",
+      "category": "Other",
+      "sources": [
+        "theglobalkodi"
+      ],
+      "variants": [
+        "@phigbofest"
+      ]
+    },
+    {
+      "name": "@revamptheo68655",
+      "displayName": "revamptheorphanage",
+      "url": "",
+      "allUrls": [],
+      "description": "@phigbofest \n@girlies_girlies \n@revamptheo68655",
+      "category": "Other",
+      "sources": [
+        "theglobalkodi"
+      ],
+      "variants": [
+        "@revamptheo68655"
+      ]
+    },
+    {
+      "name": "@salem_worx",
+      "displayName": "Salem Works",
+      "url": "",
+      "allUrls": [],
+      "description": "....building up myself in the most holy faith, praying in the Holy Ghost.\n\nAlso, @salem_worx",
+      "category": "Other",
+      "sources": [
+        "the_Okaome"
+      ],
+      "variants": [
+        "@salem_worx"
+      ]
+    },
+    {
+      "name": "@SCASH3310",
+      "displayName": "Adeniran A. Sunday",
+      "url": "",
+      "allUrls": [],
+      "description": "@OfficialMove9ja for @SCASH3310 https://t.co/U8Uq4C8uaS",
+      "category": "Other",
+      "sources": [
+        "Saamu_Eleja"
+      ],
+      "variants": [
+        "@SCASH3310"
+      ]
+    },
+    {
+      "name": "@stgr_africa",
+      "displayName": "Startup Graveyard Africa",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @stgr_africa 👌",
+      "category": "Other",
+      "sources": [
+        "slightlynerd"
+      ],
+      "variants": [
+        "@stgr_africa"
+      ]
+    },
+    {
+      "name": "@SUBACapital",
+      "displayName": "SUBA Capital",
+      "url": "",
+      "allUrls": [],
+      "description": "@SUBACapital allows small business owners, young professionals and other informal groups access to capital",
+      "category": "Other",
+      "sources": [
+        "_adakue"
+      ],
+      "variants": [
+        "@SUBACapital"
+      ]
+    },
+    {
+      "name": "@TFRBookClub",
+      "displayName": "The Funmilayo Ransome-Kuti Book Club",
+      "url": "",
+      "allUrls": [],
+      "description": "@TFRBookClub",
+      "category": "Other",
+      "sources": [
+        "Rahmjeem"
+      ],
+      "variants": [
+        "@TFRBookClub"
+      ]
+    },
+    {
+      "name": "@tryDineZap",
+      "displayName": "DineZap",
+      "url": "",
+      "allUrls": [],
+      "description": "building @tryDineZap",
+      "category": "Other",
+      "sources": [
+        "victoranyika_"
+      ],
+      "variants": [
+        "@tryDineZap"
+      ]
+    },
+    {
+      "name": "@UseCaseRadar",
+      "displayName": "Case Radar",
+      "url": "",
+      "allUrls": [],
+      "description": "I am building @UseCaseRadar, the one-stop shop for legal services in Nigeria.",
+      "category": "Other",
+      "sources": [
+        "AgboObinnaya"
+      ],
+      "variants": [
+        "@UseCaseRadar"
+      ]
+    },
+    {
+      "name": "@wekavit",
+      "displayName": "Wekavit",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @wekavit🚀",
+      "category": "Other",
+      "sources": [
+        "CedrickLupembe"
+      ],
+      "variants": [
+        "@wekavit"
+      ]
+    },
+    {
+      "name": "@zovoice_",
+      "displayName": "ZoVoice",
+      "url": "",
+      "allUrls": [],
+      "description": "I’m building @zovoice_",
+      "category": "Other",
+      "sources": [
+        "TheRealJoseph01"
+      ],
+      "variants": [
+        "@zovoice_"
+      ]
+    },
+    {
+      "name": "afyacheck-health-friend.lovable.app",
+      "displayName": "afyacheck-health-friend.lovable.app",
+      "url": "https://afyacheck-health-friend.lovable.app/",
+      "allUrls": [
+        "https://afyacheck-health-friend.lovable.app/"
+      ],
+      "description": "https://t.co/6ChxiNaNX0",
+      "category": "Other",
+      "sources": [
+        "Kingin_ofcl"
+      ],
+      "variants": [
+        "afyacheck-health-friend.lovable.app"
+      ]
+    },
+    {
+      "name": "caseradar.ai",
+      "displayName": "caseradar.ai",
+      "url": "http://www.caseradar.ai",
+      "allUrls": [
+        "http://www.caseradar.ai"
+      ],
+      "description": "https://t.co/Momay05vpm",
+      "category": "Other",
+      "sources": [
+        "AgboObinnaya"
+      ],
+      "variants": [
+        "caseradar.ai"
+      ]
+    },
+    {
+      "name": "corre.bond",
+      "displayName": "corre.bond",
+      "url": "http://corre.bond",
+      "allUrls": [
+        "http://corre.bond"
+      ],
+      "description": "Building @Corre_hq \n\nhttps://t.co/czwNxK1YTu",
+      "category": "Other",
+      "sources": [
+        "e_subutai"
+      ],
+      "variants": [
+        "corre.bond"
+      ]
+    },
+    {
+      "name": "gradie-jemeni.vercel.app",
+      "displayName": "gradie-jemeni.vercel.app",
+      "url": "https://gradie-jemeni.vercel.app/",
+      "allUrls": [
+        "https://gradie-jemeni.vercel.app/"
+      ],
+      "description": "Gradie extracts the most prominent colours from an image and turns them into gradients.\n\nhttps://t.co/EqPdX7zQPg",
+      "category": "Other",
+      "sources": [
+        "jemeni11_"
+      ],
+      "variants": [
+        "gradie-jemeni.vercel.app"
+      ]
+    },
+    {
+      "name": "lunara-studio.framer.website",
+      "displayName": "lunara-studio.framer.website",
+      "url": "http://lunara-studio.framer.website",
+      "allUrls": [
+        "http://lunara-studio.framer.website"
+      ],
+      "description": "Launched my first framer template Lunara💛!\nPreview Link ↓\nhttps://t.co/Wr8hYwJ8Ph",
+      "category": "Other",
+      "sources": [
+        "jainjitasha"
+      ],
+      "variants": [
+        "lunara-studio.framer.website"
+      ]
+    },
+    {
+      "name": "Migraide.com",
+      "displayName": "Migraide.com",
+      "url": "http://Migraide.com",
+      "allUrls": [
+        "http://Migraide.com"
+      ],
+      "description": "https://t.co/JmxUz6Engd",
+      "category": "Other",
+      "sources": [
+        "reasoneer"
+      ],
+      "variants": [
+        "Migraide.com"
+      ]
+    },
+    {
+      "name": "passportmonie.com",
+      "displayName": "passportmonie.com",
+      "url": "http://www.passportmonie.com",
+      "allUrls": [
+        "http://www.passportmonie.com"
+      ],
+      "description": "Passportmonie. The best way to spend African currencies across multiple countries. Perfect for the African traveller \n\nhttps://t.co/TFmy8QwT6F",
+      "category": "Other",
+      "sources": [
+        "passportmonie"
+      ],
+      "variants": [
+        "passportmonie.com"
+      ]
+    },
+    {
+      "name": "spectra.starlly.in",
+      "displayName": "spectra.starlly.in",
+      "url": "http://spectra.starlly.in",
+      "allUrls": [
+        "http://spectra.starlly.in"
+      ],
+      "description": "https://t.co/ILtOtveliG",
+      "category": "Other",
+      "sources": [
+        "sayhitospectra"
+      ],
+      "variants": [
+        "spectra.starlly.in"
+      ]
+    },
+    {
+      "name": "@bricklage_Ltd",
+      "displayName": "Bricklage Global Limited",
+      "url": "",
+      "allUrls": [],
+      "description": "@bricklage_Ltd \n\nWhere we simplify how Africans acquire real estate.",
+      "category": "Real Estate/PropTech",
+      "sources": [
+        "MustophaAbiola"
+      ],
+      "variants": [
+        "@bricklage_Ltd"
+      ]
+    },
+    {
+      "name": "@moontechreal",
+      "displayName": "MoonTech Real Estate",
+      "url": "",
+      "allUrls": [],
+      "description": "Building @moontechreal 🚀.\nAfrica's Number One Real Estate Consortium",
+      "category": "Real Estate/PropTech",
+      "sources": [
+        "michaeod_"
+      ],
+      "variants": [
+        "@moontechreal"
+      ]
+    },
+    {
+      "name": "@rentlifyNG",
+      "displayName": "Rentlify.",
+      "url": "",
+      "allUrls": [],
+      "description": "@rentlifyNG , we aim to revolutionize the house hunting experience..",
+      "category": "Real Estate/PropTech",
+      "sources": [
+        "drizzy1km"
+      ],
+      "variants": [
+        "@rentlifyNG"
+      ]
+    },
+    {
+      "name": "@cx_naija",
+      "displayName": "CX_naija",
+      "url": "",
+      "allUrls": [],
+      "description": "@cx_naija A career growth and support community for customer experience professionals in Nigeria",
+      "category": "Social/Community",
+      "sources": [
+        "IceBambee"
+      ],
+      "variants": [
+        "@cx_naija"
+      ]
+    },
+    {
+      "name": "@cosubhq",
+      "displayName": "Cosub",
+      "url": "",
+      "allUrls": [],
+      "description": "@cosubhq subscription sharing platform",
+      "category": "Technology/Software",
+      "sources": [
+        "lakesolve"
+      ],
+      "variants": [
+        "@cosubhq"
+      ]
+    },
+    {
+      "name": "@examaidotapp",
+      "displayName": "ExamAI",
+      "url": "",
+      "allUrls": [],
+      "description": "@examaidotapp - AI Powered Study Tools",
+      "category": "Technology/Software",
+      "sources": [
+        "akinyemi_t"
+      ],
+      "variants": [
+        "@examaidotapp"
+      ]
+    },
+    {
+      "name": "@MIP_Network",
+      "displayName": "Muslimah in Product Network",
+      "url": "",
+      "allUrls": [],
+      "description": "Thanks for asking 😊 I’m building a space where Muslim women tech professionals in product can connect, collaborate, and grow together. @MIP_Network",
+      "category": "Technology/Software",
+      "sources": [
+        "TheLatifat"
+      ],
+      "variants": [
+        "@MIP_Network"
+      ]
+    },
+    {
+      "name": "@MugenicStridehq",
+      "displayName": "MugenicStride",
+      "url": "https://selar.co/m/chimuanya-dike",
+      "allUrls": [
+        "https://selar.co/m/chimuanya-dike"
+      ],
+      "description": "Solutions brand helping businesses improve customer service and creating job opportunities",
+      "category": "Technology/Software",
+      "sources": [
+        "ChimuanyaDike"
+      ],
+      "variants": [
+        "@MugenicStridehq",
+        "@MGS_Ushering",
+        "selar.co/m/chimuanya-dike"
+      ]
+    },
+    {
+      "name": "@MunitiApp",
+      "displayName": "Muniti",
+      "url": "",
+      "allUrls": [],
+      "description": "Easing your everyday troubles\n@MunitiApp",
+      "category": "Technology/Software",
+      "sources": [
+        "Moy_ore"
+      ],
+      "variants": [
+        "@MunitiApp"
+      ]
+    },
+    {
+      "name": "@spidra_io",
+      "displayName": "Spidra",
+      "url": "",
+      "allUrls": [],
+      "description": "We are building @spidra_io a no code webscraping platform \n\nhttps://t.co/5ZvqMsLUrG",
+      "category": "Technology/Software",
+      "sources": [
+        "Meedayyy"
+      ],
+      "variants": [
+        "@spidra_io"
+      ]
+    },
+    {
+      "name": "@Vizzarjobs",
+      "displayName": "VizzarJobs",
+      "url": "",
+      "allUrls": [],
+      "description": "@Vizzarjobs \nThe largest platform to find jobs abroad wirh visa sponsorship. \n\nhttps://t.co/1z6Z1TCIxp",
+      "category": "Technology/Software",
+      "sources": [
+        "YassinCodes"
+      ],
+      "variants": [
+        "@Vizzarjobs"
+      ]
+    },
+    {
+      "name": "chatux.net",
+      "displayName": "chatux.net",
+      "url": "http://chatux.net",
+      "allUrls": [
+        "http://chatux.net"
+      ],
+      "description": "Building the future of user interface, https://t.co/LigpP0xL3F. Transform your web or mobile app into AI conversational interface.",
+      "category": "Technology/Software",
+      "sources": [
+        "JoeAdahJ"
+      ],
+      "variants": [
+        "chatux.net"
+      ]
+    },
+    {
+      "name": "github.com/mrsimi/dbplane",
+      "displayName": "github.com/mrsimi/dbplane",
+      "url": "https://github.com/mrsimi/dbplane",
+      "allUrls": [
+        "https://github.com/mrsimi/dbplane"
+      ],
+      "description": "DBPlane, an HTTP layer over your existing database.  Think supabase but you own the data and infrastructure. \n\nIt’s Open Source and here for contributing\n\nhttps://t.co/3OEYjOFKb2",
+      "category": "Technology/Software",
+      "sources": [
+        "0xfatherstreet"
+      ],
+      "variants": [
+        "github.com/mrsimi/dbplane"
+      ]
+    },
+    {
+      "name": "ridesharesync.com",
+      "displayName": "ridesharesync.com",
+      "url": "http://www.ridesharesync.com",
+      "allUrls": [
+        "http://www.ridesharesync.com"
+      ],
+      "description": "A true ride-sharing platform https://t.co/emrjlmB7g2",
+      "category": "Technology/Software",
+      "sources": [
+        "AllStackDev"
+      ],
+      "variants": [
+        "ridesharesync.com"
+      ]
+    },
+    {
+      "name": "spidra.io",
+      "displayName": "spidra.io",
+      "url": "http://www.spidra.io",
+      "allUrls": [
+        "http://www.spidra.io"
+      ],
+      "description": "We are building @spidra_io a no code webscraping platform \n\nhttps://t.co/5ZvqMsLUrG",
+      "category": "Technology/Software",
+      "sources": [
+        "Meedayyy"
+      ],
+      "variants": [
+        "spidra.io"
+      ]
+    },
+    {
+      "name": "vizzarjobs.com",
+      "displayName": "vizzarjobs.com",
+      "url": "https://www.vizzarjobs.com/",
+      "allUrls": [
+        "https://www.vizzarjobs.com/"
+      ],
+      "description": "@Vizzarjobs \nThe largest platform to find jobs abroad wirh visa sponsorship. \n\nhttps://t.co/1z6Z1TCIxp",
+      "category": "Technology/Software",
+      "sources": [
+        "YassinCodes"
+      ],
+      "variants": [
+        "vizzarjobs.com"
+      ]
+    }
+  ]
+}
