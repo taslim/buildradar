@@ -63,7 +63,7 @@ export default function HomePage() {
         onLogoClick={handleReturnHome}
         showSearch={!singleCompanyId}
       />
-      <main className="container mx-auto px-4 pb-20">
+      <main className="container mx-auto px-4">
         {!singleCompanyId && (
           <CategoryNav
             categories={categories}
