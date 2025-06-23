@@ -12,8 +12,12 @@ export default function DisclaimerPage() {
   };
 
   // Dummy handlers since we don't need search functionality on disclaimer page
-  const handleSearch = () => {};
-  const handleRandomCompany = () => {};
+  const handleSearch = () => {
+    // No-op for disclaimer page
+  };
+  const handleRandomCompany = () => {
+    // No-op for disclaimer page
+  };
 
   return (
     <div className="min-h-screen bg-[#F9FAFB]">

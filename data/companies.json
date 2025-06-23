@@ -1,7 +1,7 @@
 {
   "metadata": {
     "processedAt": "2025-06-22T19:15:25.510Z",
-    "totalCompanies": 115,
+    "totalCompanies": 119,
     "totalCategories": 12,
     "companiesWithUrls": 27,
     "categoriesBreakdown": {
@@ -9,17 +9,81 @@
       "Blockchain/Web3": 1,
       "Creative/Design": 23,
       "E-commerce/Marketplace": 5,
-      "EdTech": 10,
+      "EdTech": 11,
       "Energy/CleanTech": 1,
       "FinTech": 10,
       "Healthcare/MedTech": 7,
-      "Other": 39,
-      "Real Estate/PropTech": 3,
+      "Other": 40,
+      "Real Estate/PropTech": 5,
       "Social/Community": 1,
       "Technology/Software": 12
     }
   },
   "companies": [
+    {
+      "name": "Money Africa Kids",
+      "displayName": "Money Africa Kids",
+      "url": "https://www.moneyafricakids.com/",
+      "allUrls": [
+        "https://www.moneyafricakids.com/"
+      ],
+      "description": "Largest financial literacy platform for children http://moneyafricakids.com",
+      "category": "EdTech",
+      "sources": [
+        "tosinolaseinde"
+      ],
+      "variants": [
+        "Money Africa Kids"
+      ]
+    },
+    {
+      "name": "RentFlow",
+      "displayName": "RentFlow",
+      "url": "https://rentflow.ng/",
+      "allUrls": [
+        "https://rentflow.ng/"
+      ],
+      "description": "I’m building http://Rentflow.ng a rent management app for Nigerian landlords and agents. Streamlines properties, tenants, rent, invoices, agreements, and annual reports. Not disrupting, just adapting smartly.",
+      "category": "Real Estate/PropTech",
+      "sources": [
+        "MikailHamzat"
+      ],
+      "variants": [
+        "RentFlow"
+      ]
+    },
+    {
+      "name": "MyCribb",
+      "displayName": "MyCribb",
+      "url": "https://www.mycribb.co",
+      "allUrls": [
+        "https://www.mycribb.co/"
+      ],
+      "description": "Building @mycribb",
+      "category": "Real Estate/PropTech",
+      "sources": [
+        "samsonshittu01"
+      ],
+      "variants": [
+        "MyCribb"
+      ]
+    },
+    {
+      "name": "JobStack",
+      "displayName": "JobStack",
+      "url": "https://www.jobstack.me/",
+      "allUrls": [
+        "https://www.jobstack.me/"
+      ],
+      "description": "LLM powered Jobtracker 👀👀",
+      "category": "Other",
+      "sources": [
+        "lanreadelowo"
+      ],
+      "variants": [
+        "MyCribb"
+      ]
+    },
     {
       "name": "@EbunFarmsResort",
       "displayName": "Ebun Farms and Holiday Resort",
